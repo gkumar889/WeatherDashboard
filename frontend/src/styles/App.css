@@ -1,0 +1,16 @@
+/* src/styles/App.css */
+.weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.weather-card {
+  flex: 1 1 calc(33% - 20px);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
