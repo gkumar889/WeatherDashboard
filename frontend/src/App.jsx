@@ -1,11 +1,15 @@
+// src/App.jsx
 import React from 'react';
 import Dashboard from './pages/Dashboard';
-import './styles/App.css';
+import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      <GlobalStyle />
+      <div className="container">
+        <Dashboard />
+      </div>
     </div>
   );
 }
